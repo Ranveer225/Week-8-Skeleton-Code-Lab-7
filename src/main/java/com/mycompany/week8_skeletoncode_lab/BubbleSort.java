@@ -11,7 +11,12 @@ package com.mycompany.week8_skeletoncode_lab;
 public class BubbleSort {
 
     public static void bubbleSort(int a[], int size) {
-        int outer, inner, temp;
+        int outer, inner = 0, temp;
+        if (a[inner]>a[inner +1]){
+            temp =a[inner];
+            a[inner]=a[inner+1];
+            a[inner+1]=temp;
+        }
         for (outer = size - 1; outer > 0; outer--) { // counting down
             for (inner = 0; inner < outer; inner++) { // bubbling up
                 //ToDo 3: complete this algorithm, test it, provide its time complexity
