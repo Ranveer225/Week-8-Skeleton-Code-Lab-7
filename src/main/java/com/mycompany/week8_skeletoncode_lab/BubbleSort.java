@@ -22,7 +22,5 @@ public class BubbleSort {
                 //ToDo 3: complete this algorithm, test it, provide its time complexity
             }
         }
-    }
-    
-    
+    }       
 }
