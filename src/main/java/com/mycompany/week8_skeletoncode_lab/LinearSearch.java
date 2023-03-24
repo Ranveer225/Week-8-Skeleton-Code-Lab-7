@@ -10,11 +10,17 @@ package com.mycompany.week8_skeletoncode_lab;
  */
 public class LinearSearch {
     
-    public static void search(int arr[], int x)
+    public static int search(int arr[], int x)
     {
         int n = arr.length;
+        for (int i=0; i<n; i++) {
+            if (arr[i]==x){
+                return i; // return index of first x 
+            }
+        }
         // Todo 01: - complete the implementation of linear search and test your code  
          //         - prvoide asymptotic analysis of the developed solution
+         return -1; //x isn't found
     }
     
 }
