@@ -21,6 +21,5 @@ public class LinearSearch {
         // Todo 01: - complete the implementation of linear search and test your code  
          //         - prvoide asymptotic analysis of the developed solution
          return -1; //x isn't found
-    }
-    
+    }     
 }
