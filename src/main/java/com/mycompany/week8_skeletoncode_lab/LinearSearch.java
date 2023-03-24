@@ -10,7 +10,7 @@ package com.mycompany.week8_skeletoncode_lab;
  */
 public class LinearSearch {
     
-    public static int search(int arr[], int x)
+    public static void search(int arr[], int x)
     {
         int n = arr.length;
         // Todo 01: - complete the implementation of linear search and test your code  
